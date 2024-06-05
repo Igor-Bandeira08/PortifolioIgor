@@ -5,26 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Do Igor</title>
+
+    
+   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <h1>Igor De Lima Bandeira</h1>
 
-    <h2>Sobre mim:</h2>
-    <p>
+<body>
+    <header id="Cabecalho">
+        <h1>Igor De Lima Bandeira</h1>
+        <nav>
+            <ul>
+                <li id="hom"> <a href="#home"><img src="img/house.svg" alt="Home"></a></li>
+                <li id="sob"> <a href="#sobre"><img src="img/seta-para-baixo.svg" alt="Sobre"></a></li>
+                <li id="cont"> <a href="#contato"><img src="img/unnamed.svg" alt="Contato"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article id="home">
+        <h2>Home</h2>
+        <p>Este é meu Portifólio</p>
+    </article>
+
+    <section id="sobre">
+        <h2>Sobre mim:</h2>
+        <img src="img/Igor.jpeg" alt="Foto de indetificação Igor Bandeira">
+        <p>
         Eu me chamo Igor De Lima Bandeira, tenho 15 anos, nasci no dia 24 de Junho de 2008, em Esteio-Rs.
         <br> Estudo na Escola Estadual de Ensino Médio Vila Prado em Sapucaia Do Sul, e realizo o curso de informática
         no Colégio ULBRA São Lucas.
         <br>Atualmente tenho o objetivo de aprander programação e seguir uma carreira no ramo.
     </p>
+    </section>
+    
     <hr>
     <h2>Projetos e conhecimentos</h2>
     <h4>Projetos:</h4>
+
     <p>
         Até o momento não tenho muitos projetos realizados, mas possuo um projeto sobre um jogo de adivinhação postado
         no GitHub.
     </p>
-    <a href="https://github.com/Igor-Bandeira08/JogoAdivinhacao/blob/main/JogoAdv/src/jogoadv/JogoAdv.java"> Jogo de
+    
+    <a id="jogo" href="https://github.com/Igor-Bandeira08/JogoAdivinhacao/blob/main/JogoAdv/src/jogoadv/JogoAdv.java"> Jogo de
         Adivinhação</a>
 
     <h4>Conhecimentos:</h4>
@@ -32,9 +56,16 @@
         Hoje tenho um conhecimento básico em java, html e css.
     </p>
 
-    <h2> Link:</h2>
-    <a href="https://github.com/Igor-Bandeira08"> GitHub </a>
+    <h2> Links:</h2>
+    
 
+    <footer id="contato">
+        <a href="https://www.instagram.com/x.igor11"><img src="img/Instagram_icon.png" alt="Insta"></a>
+        <a href="https://github.com/Igor-Bandeira08"><img src="img/github_PNG20.png" alt="GitHub"></a>
+        <a href="https://api.whatsapp.com/send?phone=5191879657"><img src="img/unnamed.svg" alt="Contato"></a>
+
+        <p>&copy;2024 Portifólio Do Igor. Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>
