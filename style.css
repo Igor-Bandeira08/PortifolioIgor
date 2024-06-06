@@ -1,98 +1,109 @@
-h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  h2, h4{
+    margin: 0;
+    padding: 20px;
+    text-decoration: underline;
 }
-    p{
-        font-family: Arial, Helvetica, sans-serif;
-    }
+p {
+    text-decoration: none;
+    text-align: justify;
+    color: aliceblue;
+    font-size: 14pt;
+    padding: 20px;
+    margin: 0;
+}
 
-body{
-    background-color: rgb(236, 231, 228);
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, #1077e6, #000000 25%, #ffffff 100%);
 }
-header {
+header{
     display: flex;
     justify-content: space-between;
-    text-align: center;
-    padding: 1rem 5%;
-    color: rgb(255, 255, 255);
-    background-color: #0aa5ff;
+    align-items: center;
+    padding:1rem 5%;
+    color: aliceblue;
+    background-color: #000000;
     position: relative;
     z-index: 2;
-    margin: 0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 }
-
+header h1{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 nav ul {
     list-style-type: none;
     display: flex;
     gap: 1rem;
+}
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #1077e6;
+    padding: 15px;
+    border-radius: 15px 15px;
+}
+nav a:hover{
+    text-decoration: none;
+    color: #1077e6;
+    background-color:aliceblue ;
+    padding: 15px;
+    border-radius: 0px 15px;
+}
+#home{
+position: relative;
 
 }
+#sobre img{
+    height: 300px;
+    width: 260px;
+}
+#sobre{
+    list-style-type: none ;
+     text-decoration: none;
+}
+        #sobre a{
+            
+           
+    color: #1077e6;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 0px 15px
 
-h1 {
-    color: rgb(255, 255, 255);
-    font-size: 45px;
-    text-align: center;
-}
+        }
+        #sobre a:hover{
+            text-decoration:none;
+    color: #ffffff;
+    background-color:#1077e6 ;
+    padding: 15px;
+    border-radius: 15px 0px;
+        }
+main{
+    padding: 2rem;
 
-img {
-    width: 140px;
-    height: 140px;
 }
+section{
+    margin: 50px;
+    padding: 20px;
+}
+ 
+h2, h4{
+    color: aliceblue;
+    text-align: justify;
+    padding: 20px;
 
-p {
-    font-size: 15px
 }
-
-#hom img {
-    position: relative;
-    width: 40px;
-    height: 40px;
-    overflow: hidden;
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: 1;
-}
-
-#sob img {
-    width: 40px;
-    height: 40px;
-}
-
-#cont img {
-    width: 40px;
-    height: 40px;
-}
-#contato img{
-    width: 50px;
-    height: 50px;
-}
-#jogo {
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-#footer{
-    display: flex;
+footer{
+    height: 150px;
+    background-color: #0c2fcc;
+    display:flex ;
     justify-content: space-between;
-    text-align: center;
-    padding: 1rem 30%;
-    color: rgb(255, 255, 255);
-    background-color: #2e4bf1;
-    position: relative;
-    z-index: 2;
-    margin: 0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px 5%;
+    align-items: center;
 }
-#fa img{
-    
-    width: 40px;
-    height: 40px;
-}
-#fb img{
-    width: 40px;
-    height: 40px;
-}
-#fc img{
-    width: 40px;
-    height: 40px;
+footer img {
+    width: 45px;
+    margin-right: 1rem;
+
 }
