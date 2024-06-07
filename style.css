@@ -99,7 +99,7 @@ footer{
     background-color: #0c2fcc;
     display:flex ;
     justify-content: space-between;
-    padding: 30px 5%;
+    padding: 0px 5%;
     align-items: center;
 }
 footer img {
