@@ -17,7 +17,7 @@ p {
 
 body {
     margin: 0;
-    padding: 20px;
+    padding: 40px;
     font-family:'Space grotesk';
     background: linear-gradient(45deg, #1077e6, #000000 25%, #ffffff 100%);
 }
@@ -66,7 +66,7 @@ nav a:hover{
 }
 #home{
 position: relative;
-
+padding: 25px;
 
 }
 #sobre img{
