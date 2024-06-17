@@ -1,166 +1,252 @@
   @import url('https://fonts.googleapis.com/css2?family=Sedan+SC&family=Space+Grotesk:wght@600&display=swap');
 
-  h2, h4{
-    margin: 0;
-    padding: 20px;
-    text-decoration: underline;
-    font-family:'Space grotesk';
-}
-p {
-    text-decoration: none;
-    text-align: justify;
-    color: aliceblue;
-    font-size: 14pt;
-    padding: 20px;
-    margin: 0;
-}
+  h2,
+  h4 {
+      margin: 0;
+      padding: 20px;
+      text-decoration: underline;
+      font-family: 'Space grotesk';
+  }
 
-body {
-    margin: 0;
-    padding: 40px;
-    font-family:'Space grotesk';
-    background: linear-gradient(45deg, #1077e6, #000000 25%, #ffffff 100%);
-}
-#Banner {
-    position: relative;
-    background-image: url('img/banner\ 2.avif');
-    height: 250px;
-    background-position: center ;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: visible;
-    z-index: 1;
-}
+  p {
+      text-decoration: none;
+      text-align: justify;
+      color: aliceblue;
+      font-size: 14pt;
+      padding: 20px;
+      margin: 0;
+  }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 5%;
-    color: aliceblue;
-    background-color: #000000;
-    position: relative;
-    
-}
-header h1{
-    font-size: 2rem;
-    font-family: 'Sedan SC';
-}
-nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 1rem;
-}
-nav a {
-    text-decoration: none;
-    color: aliceblue;
-    background-color: #1077e6;
-    padding: 15px;
-    border-radius: 15px 15px;
-    transition: 0.5s;
-}
-nav a:hover{
-    text-decoration: none;
-    color: #1077e6;
-    background-color:aliceblue ;
-    padding: 15px;
-    border-radius: 0px 15px;
-    
-}
-#home{
-position: relative;
-padding: 25px;
+  body {
+      margin: 0;
+      padding: 40px;
+      font-family: 'Space grotesk';
+      background: linear-gradient(45deg, #1077e6, #000000 25%, #ffffff 100%);
+  }
 
-}
-#sobre img{
-    height: 300px;
-    width: 260px;
-}
-#sobre{
-    list-style-type: none ;
-     text-decoration: none;
-}
-        #sobre a{
-            
-           
-    color: #1077e6;
-    background-color: aliceblue;
-    padding: 15px;
-    border-radius: 0px 15px
+  #Banner {
+      position: relative;
+      background-image: url('img/banner\ 2.avif');
+      height: 250px;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      overflow: visible;
+      z-index: 1;
+  }
 
-        }
-        #sobre a:hover{
-            text-decoration:none;
-    color: #ffffff;
-    background-color:#1077e6 ;
-    padding: 15px;
-    border-radius: 15px 0px;
-        }
-main{
-    padding: 2rem;
 
-}
-section{
-    margin: 50px;
-    padding: 20px;
-}
- 
-h2, h4{
-    color: aliceblue;
-    text-align: justify;
-    padding: 20px;
-    font-family:'Sedan SC';
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 5%;
+      color: aliceblue;
+      background-color: #000000;
+      position: relative;
 
-}
-#footer{
-    height: 100px;
-    background-color:rgb(17, 43, 76);
-    display:flex ;
-    justify-content: space-evenly;
-    padding: 1rem 5%;
-    align-items: center;
-    color: aliceblue;
-    
-    position: relative;
-}
-#footer a{
-  
-    
-    text-decoration: none;
-    color: aliceblue;
-    background-color: #1867ac;
-    padding: 10px;
-    border-radius: 15px 15px;
-    
-}
+  }
 
-#footer a:hover{
-text-decoration: none;
-    color: aliceblue;
-    background-color: #1077e6 ;
-    padding: 15px;
-    border-radius: 15px 15px;
-}
-#footer p{
-    font-family: sans-serif;
-}
-#footer img {
-    width: 45px;
-    margin-right: 1rem;
+  header h1 {
+      font-size: 2rem;
+      font-family: 'Sedan SC';
+  }
 
-}
-#Fcontatos {
-    height: 100px;
-    background-color: rgb(17, 43, 76);
-    display:flex ;
-    justify-content: space-between;
-    padding: 1rem 5%;
-    align-items: center;
-    color: rgb(94, 95, 96);
-}
-#Fcontatos img{
-    width: 45px;
-    margin-right: 1rem;
-}
-/*56, 71, 91
+  nav ul {
+      list-style-type: none;
+      display: flex;
+      gap: 1rem;
+  }
+
+  nav a {
+      text-decoration: none;
+      color: aliceblue;
+      background-color: #1077e6;
+      padding: 15px;
+      border-radius: 15px 15px;
+      transition: 0.5s;
+  }
+
+  nav a:hover {
+      text-decoration: none;
+      color: #1077e6;
+      background-color: aliceblue;
+      padding: 15px;
+      border-radius: 0px 15px;
+
+  }
+
+  #home {
+      position: relative;
+      padding: 25px;
+
+  }
+
+  #sobre img {
+      height: 300px;
+      width: 260px;
+  }
+
+  #sobre {
+      list-style-type: none;
+      text-decoration: none;
+  }
+
+  #sobre a {
+
+
+      color: #1077e6;
+      background-color: aliceblue;
+      padding: 15px;
+      border-radius: 0px 15px
+  }
+
+  #sobre a:hover {
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #1077e6;
+      padding: 15px;
+      border-radius: 15px 0px;
+  }
+
+  main {
+      padding: 2rem;
+
+  }
+
+  section {
+      margin: 50px;
+      padding: 20px;
+  }
+
+  h2, h4 {
+      color: aliceblue;
+      text-align: justify;
+      padding: 20px;
+      font-family: 'Sedan SC';
+
+  }
+
+  #footer {
+      height: 100px;
+      background-color: rgb(17, 43, 76);
+      display: flex;
+      justify-content: space-evenly;
+      padding: 1rem 5%;
+      align-items: center;
+      color: aliceblue;
+
+      position: relative;
+
+  }
+
+  #footer a {
+
+
+      text-decoration: none;
+      color: aliceblue;
+      background-color: #1867ac;
+      padding: 10px;
+      border-radius: 15px 15px;
+
+  }
+
+  #footer a:hover {
+      text-decoration: none;
+      color: aliceblue;
+      background-color: #1077e6;
+      padding: 15px;
+      border-radius: 15px 15px;
+  }
+
+  #footer p {
+      font-family: sans-serif;
+  }
+
+  #footer img {
+      width: 45px;
+      margin-right: 1rem;
+
+  }
+
+  #Fcontatos {
+      height: 100px;
+      background-color: rgb(17, 43, 76);
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 5%;
+      align-items: center;
+      color: rgb(94, 95, 96);
+  }
+
+  #Fcontatos img {
+      width: 45px;
+      margin-right: 1rem;
+  }
+
+  body {
+      font-size: 16px;
+      background-color: white;
+  }
+
+  @media (max-width: 400px) {
+      header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 5px 2%;
+          color: aliceblue;
+          background-color: #000000;
+          position: relative;
+          width: 90%;
+      }
+
+      header h1 {
+          font-size: 20px;
+      }
+
+      nav ul a {
+          font-size: 12px;
+      }
+
+      main {
+          padding: 0px 1rem;
+      }
+
+      main p {
+
+          font-size: 15px;
+      }
+
+      h2 {
+          font-size: 20px;
+      }
+  }
+
+  /* Estilos para telas menores que 600px */
+  @media (min-width: 401px) and (max-width: 600px) {
+      body {
+          font-size: 14px;
+          background-color: lightblue;
+      }
+
+      header h1 {
+          font-size: 15px;
+      }
+
+      nav ul a {
+          font-size: 10px;
+      }
+  }
+
+  /* Estilos para telas entre 601px e 1024px */
+  @media (min-width: 601px) and (max-width: 1024px) {
+      body {
+          font-size: 15px;
+          background-color: lightgrey;
+      }
+  }
+
+
+  /*56, 71, 91
 36, 59, 88*/
