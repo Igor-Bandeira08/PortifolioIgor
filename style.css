@@ -85,11 +85,13 @@
   #sobre img {
       height: 300px;
       width: 260px;
+      border-radius: 20px;
   }
-
+ 
   #sobre {
       list-style-type: none;
       text-decoration: none;
+      
   }
 
   #sobre a {
@@ -119,7 +121,8 @@
       padding: 20px;
   }
 
-  h2, h4 {
+  h2,
+  h4 {
       color: aliceblue;
       text-align: justify;
       padding: 20px;
@@ -148,7 +151,7 @@
       background-color: #1867ac;
       padding: 10px;
       border-radius: 15px 15px;
-
+      transition: 0.5s;
   }
 
   #footer a:hover {
@@ -157,6 +160,7 @@
       background-color: #1077e6;
       padding: 15px;
       border-radius: 15px 15px;
+
   }
 
   #footer p {
@@ -208,11 +212,13 @@
       nav ul a {
           font-size: 6px;
       }
-      body{
-        font-size: 15px;
+
+      body {
+          font-size: 15px;
       }
+
       #home {
-        padding: 1px 1rem;
+          padding: 1px 1rem;
       }
   }
 
