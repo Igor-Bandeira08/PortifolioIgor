@@ -22,11 +22,14 @@
       padding: 40px;
       font-family: 'Space grotesk';
       background: linear-gradient(45deg, #1077e6, #000000 25%, #ffffff 100%);
+      font-size: 16px;
+      background-color: white;
   }
+
 
   #Banner {
       position: relative;
-      background-image: url('img/banner\ 2.avif');
+      background-image: url('img/Banner.jpg');
       height: 250px;
       background-position: center;
       background-size: cover;
@@ -44,7 +47,7 @@
       color: aliceblue;
       background-color: #000000;
       position: relative;
-
+      border-radius: 15px;
   }
 
   header h1 {
@@ -87,11 +90,11 @@
       width: 260px;
       border-radius: 20px;
   }
- 
+
   #sobre {
       list-style-type: none;
       text-decoration: none;
-      
+
   }
 
   #sobre a {
@@ -138,7 +141,7 @@
       padding: 1rem 5%;
       align-items: center;
       color: aliceblue;
-
+      border-radius: 15px;
       position: relative;
 
   }
@@ -180,7 +183,8 @@
       justify-content: space-between;
       padding: 1rem 5%;
       align-items: center;
-      color: rgb(94, 95, 96);
+      color: rgb(255, 255, 255);
+      border-radius: 15px;
   }
 
   #Fcontatos img {
@@ -188,11 +192,7 @@
       margin-right: 1rem;
   }
 
-  body {
-      font-size: 16px;
-      background-color: white;
-  }
-
+ 
   @media (max-width: 400px) {
       header {
           display: flex;
