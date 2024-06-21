@@ -29,7 +29,7 @@
 
   #Banner {
       position: relative;
-      background-image: url('img/Banner.jpg');
+      background-image: url('img/banner\ 2.avif');
       height: 250px;
       background-position: center;
       background-size: cover;
@@ -215,11 +215,13 @@
 
       body {
           font-size: 15px;
+          padding: 1px;
       }
 
       #home {
           padding: 1px 1rem;
       }
+      
   }
 
   /* Estilos para telas menores que 600px */
@@ -235,6 +237,10 @@
 
       nav ul a {
           font-size: 10px;
+        
+      }
+      body {
+        padding: 1px;
       }
   }
 
